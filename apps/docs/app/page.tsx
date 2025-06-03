@@ -18,6 +18,11 @@ const ThemeImage = (props: Props) => {
   );
 };
 
+/**
+ * Renders the main landing page for the Docs app, featuring themed images, informational content, call-to-action links, and navigation buttons.
+ *
+ * The page includes a logo that adapts to light and dark themes, a list of instructions, deployment and documentation links, several labeled buttons, and a footer with external resources.
+ */
 export default function Home() {
   return (
     <div className={styles.page}>
