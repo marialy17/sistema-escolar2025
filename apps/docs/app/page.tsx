@@ -64,9 +64,6 @@ export default function Home() {
           </a>
         </div>
         <Button appName="docs" className={styles.secondary}>
-          Open alert
-        </Button>
-        <Button appName="docs" className={styles.secondary}>
           Franck esta aquí
         </Button>
       </main>
