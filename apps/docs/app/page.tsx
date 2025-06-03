@@ -33,7 +33,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Hola <code>apps/docs/app/page.tsx</code>
+            hello world <code>apps/docs/app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -65,6 +65,8 @@ export default function Home() {
         </div>
         <Button appName="Franck" className={styles.secondary}>
           Franck esta aquí
+        <Button appName="docs" className={styles.secondary}>
+          Franck no esta aquí
         </Button>
         <Button appName="Luis" className={styles.secondary}>
           Luis tambien  esta aquí
