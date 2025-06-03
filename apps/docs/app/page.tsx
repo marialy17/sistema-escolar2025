@@ -66,6 +66,9 @@ export default function Home() {
         <Button appName="docs" className={styles.secondary}>
           Open alert
         </Button>
+        <Button appName="docs" className={styles.secondary}>
+          Franck esta aquí
+        </Button>
       </main>
       <footer className={styles.footer}>
         <a
