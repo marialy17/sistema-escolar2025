@@ -60,14 +60,15 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Read our docs
+            No leas la documanteción
           </a>
         </div>
         <Button appName="docs" className={styles.secondary}>
           Franck no esta aquí
         </Button>
         <Button appName="docs" className={styles.secondary}>
-          Luis tambien  esta aquí
+          Luis tmpoco esta aquí
+          Nadie esta aquí
         </Button>
       
       </main>
