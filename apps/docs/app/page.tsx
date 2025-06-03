@@ -63,10 +63,10 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="docs" className={styles.secondary}>
+        <Button appName="Franck" className={styles.secondary}>
           Franck esta aquí
         </Button>
-        <Button appName="docs" className={styles.secondary}>
+        <Button appName="Luis" className={styles.secondary}>
           Luis tambien  esta aquí
         </Button>
       
