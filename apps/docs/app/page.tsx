@@ -64,9 +64,7 @@ export default function Home() {
           </a>
         </div>
         <Button appName="Franck" className={styles.secondary}>
-          Franck esta aquí
-        <Button appName="docs" className={styles.secondary}>
-          Franck no esta aquí
+          Franck esta aquí        
         </Button>
         <Button appName="Luis" className={styles.secondary}>
           Luis tambien  esta aquí
