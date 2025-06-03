@@ -69,6 +69,9 @@ export default function Home() {
         <Button appName="docs" className={styles.secondary}>
           Luis tambien  esta aquí
         </Button>
+        <Button appName="docs" className={styles.secondary}>
+          Y Marialy tambien
+        </Button>
       
       </main>
       <footer className={styles.footer}>
