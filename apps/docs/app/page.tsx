@@ -38,6 +38,8 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
+        <h1>Hola mundo Alex</h1>
+
         <div className={styles.ctas}>
           <a
             className={styles.primary}
