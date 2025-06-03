@@ -1,6 +1,11 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
+    "jsx": "preserve",                  // Asegura JSX habilitado para Next.js
+    "baseUrl": ".",                     // Soporte para paths relativos
+    "paths": {
+      "@repo/ui/*": ["../../packages/ui/src/*"]  // Ajusta según tu estructura real
+    },
     "plugins": [
       {
         "name": "next"
@@ -11,7 +16,6 @@
     "**/*.ts",
     "**/*.tsx",
     "next-env.d.ts",
-    "next.config.js",
     ".next/types/**/*.ts"
   ],
   "exclude": [
