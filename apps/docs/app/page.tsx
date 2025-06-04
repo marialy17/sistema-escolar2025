@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -33,7 +34,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Hola <code>apps/docs/app/page.tsx</code>
+            hello world <code>apps/docs/app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -60,19 +61,22 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Read our docs
+            No leas la documanteción
           </a>
         </div>
         <Button appName="docs" className={styles.secondary}>
-          Franck esta aquí
+          Franck no esta aquí
         </Button>
         <Button appName="docs" className={styles.secondary}>
-          Luis tambien  esta aquí
+          Luis tmpoco esta aquí
+          Nadie esta aquí
         </Button>
-        <Button appName="docs" className={styles.secondary}>
-          Y Marialy tambien
-        </Button>
-      
+        <Link href="/heroes">
+          <Button appName="heroes" className={styles.primary}>
+            ¿Qué tipo de heroe eres?
+          </Button>
+        </Link>
+
       </main>
       <footer className={styles.footer}>
         <a
