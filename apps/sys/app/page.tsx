@@ -19,10 +19,13 @@
  * ## Uso:
  * Este componente se carga automáticamente como ruta principal ('/')
  */
+
+// import {TablaPrueba} from "@/components/tablaprueba";
 export default function Home(): React.ReactElement {
   return (
     <div className="flex min-h-[calc(100vh-5rem)] flex-col items-center justify-center">
       <h1>Mi Negocio</h1>
+      {/* <TablaPrueba /> Fue prueba de bd puede eliminarse tambien el archivo */}
     </div>
   );
 }

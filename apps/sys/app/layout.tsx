@@ -4,10 +4,12 @@
  *   Incluye: proveedor de temas, barra de navegación y contenido principal.
  */
 
-import { ThemeProvider } from "@/components/theme/theme-provider"
+import { ThemeProvider } from "@/components/theme/theme-provider";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/navbar";
 import "@/styles/globals.css"; 
+import {ConvexClientProvider} from "./ConvexClientProvider";
+
 
 /**
  * * Metadatos globales de la aplicación.
@@ -76,10 +78,12 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
           enableSystem
           disableTransitionOnChange
         >
+          <ConvexClientProvider>
           <div className="relative flex min-h-screen flex-col">
             <Navbar />
             <main className="flex-1">{children}</main>
           </div>
+          </ConvexClientProvider>
         </ThemeProvider>
       </body>
     </html>
